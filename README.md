@@ -47,7 +47,16 @@ codex plugin add liktor@dedal
 codex mcp login liktor
 ```
 
-### Claude, ChatGPT, Cursor and VS Code
+### Claude on the web, desktop and mobile
+
+1. Open [Customize > Plugins](https://claude.ai/customize/plugins), choose **Add > Add marketplace** and enter
+   `dedal-hq/liktor-plugin`.
+2. Add **Liktor** from the list.
+3. Open the plugin, go to its **Connectors** tab, connect Liktor and sign in with your Dedal account.
+
+The plugin is on your claude.ai account, so it also reaches Cowork and, as `liktor@synced`, Claude Code.
+
+### ChatGPT, Cursor and VS Code
 
 These apps connect to Liktor directly, without this plugin: follow the steps for your app at
 [dedal.ai/liktor](https://dedal.ai/liktor/#lidhu).

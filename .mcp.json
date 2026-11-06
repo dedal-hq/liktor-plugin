@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "liktor": {
+      "type": "http",
+      "url": "https://liktor.dedal.ai/mcp"
+    }
+  }
+}

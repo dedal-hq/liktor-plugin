@@ -1,7 +1,7 @@
 {
   "name": "liktor",
   "displayName": "Liktor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Albanian law from the official texts: laws and codes with their versions, bylaws, Constitutional Court and High Court decisions, ECHR judgments against Albania, vetting decisions and EU law. Connects to Dedal's Liktor server and adds a skill for researching and citing them.",
   "author": {
     "name": "Dedal",

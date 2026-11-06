@@ -1,5 +1,5 @@
 ---
-name: liktor-research
+name: research
 description: Research Albanian law with the liktor MCP server (search_law, get_article, get_law, get_related, get_changes, list_subjects) - laws and codes, bylaws (VKM, udhëzime, urdhra), Constitutional Court, High Court, ECHR judgments against Albania, the vetting bodies (KPK, KPA) and EU law as Albania aligns with it. Use for any question about what Albanian law says, what a court decided, which version applied on a date, what implements or amends an act, or what changed recently.
 ---
 

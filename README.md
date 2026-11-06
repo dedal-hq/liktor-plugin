@@ -1,12 +1,12 @@
-# Liktor plugin for Claude Code and Codex
+# Liktor plugin for Claude and Codex
 
 [Liktor](https://dedal.ai/liktor/) gives your AI assistant the official texts of Albanian law, so it can answer
-from the law itself and cite it. This plugin adds two things to Claude Code or Codex:
+from the law itself and cite it. This plugin adds two things to Claude (web, desktop, mobile and Claude Code) or Codex:
 
 - the connection to the Liktor server (`https://liktor.dedal.ai/mcp`), with sign-in through your Dedal account;
-- the `liktor-research` skill: how to search in Albanian legal language, open and check what it cites, find the
-  version that applied on a date, follow implementing bylaws and amendments, read court decisions, and cite by
-  article and id.
+- the research skill (`/liktor:research` in Claude Code): how to search in Albanian legal language, open and check
+  what it cites, find the version that applied on a date, follow implementing bylaws and amendments, read court
+  decisions, and cite by article and id. Claude uses it by itself when a question is about Albanian law.
 
 ## What Liktor holds
 

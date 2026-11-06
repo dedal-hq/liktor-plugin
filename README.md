@@ -67,8 +67,10 @@ and `codex plugin marketplace upgrade`.
 
 ## Privacy
 
-Your assistant sends Liktor the searches it makes and the ids of the texts it opens. To rank results, Liktor sends
-each search and candidate passages to a reranking service in the EU (MongoDB's Voyage AI). The
+Your assistant sends Liktor the searches it makes and the ids of the texts it opens, never the rest of your
+conversation. To rank results, Liktor sends each search and candidate passages to a reranking service in the EU
+(MongoDB's Voyage AI), which does not train on them. Liktor keeps searches for 90 days to improve its search, without
+your account or IP address, so leave client names out of what you ask it to look up. The
 [privacy policy](https://dedal.ai/privacy/) has the details.
 
 ## Support

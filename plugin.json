@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "liktor",
+  "version": "0.1.0",
+  "description": "Albanian law from the official texts: laws and codes with their versions, bylaws, Constitutional Court and High Court decisions, ECHR judgments against Albania, vetting decisions and EU law. Connects to Dedal's Liktor server and adds a skill for researching and citing them.",
+  "author": {
+    "name": "Dedal",
+    "email": "contact@dedal.ai",
+    "url": "https://dedal.ai"
+  },
+  "homepage": "https://dedal.ai/liktor/",
+  "repository": "https://github.com/dedal-hq/liktor-plugin",
+  "license": "PolyForm-Internal-Use-1.0.0",
+  "keywords": ["albania", "law", "legal-research", "case-law", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Liktor",
+        "shortDescription": "Albanian law from the official texts",
+        "longDescription": "Search and cite Albanian laws and codes with their consolidated versions, bylaws, Constitutional Court and High Court decisions, ECHR judgments against Albania, vetting decisions and EU law. Access is by invitation, with a Dedal account.",
+        "developerName": "Dedal",
+        "category": "Research",
+        "capabilities": ["Read"],
+        "websiteURL": "https://dedal.ai/liktor/",
+        "privacyPolicyURL": "https://dedal.ai/privacy/",
+        "defaultPrompt": [
+          "Sipas Kodit Civil, sa është afati i parashkrimit për detyrimet kontraktore?",
+          "What did the Constitutional Court decide on the vetting law?"
+        ],
+        "brandColor": "#634995",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "liktor": {
+      "type": "streamable-http",
+      "url": "https://liktor.dedal.ai/mcp"
+    }
+  }
+}

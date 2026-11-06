@@ -1,0 +1,15 @@
+{
+  "name": "dedal",
+  "owner": {
+    "name": "Dedal",
+    "email": "contact@dedal.ai"
+  },
+  "description": "Dedal's plugins: Liktor, Albanian law for AI assistants.",
+  "plugins": [
+    {
+      "name": "liktor",
+      "source": "./",
+      "description": "Albanian law from the official texts, with a skill for researching and citing them."
+    }
+  ]
+}

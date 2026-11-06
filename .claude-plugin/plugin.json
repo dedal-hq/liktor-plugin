@@ -1,0 +1,18 @@
+{
+  "name": "liktor",
+  "displayName": "Liktor",
+  "version": "0.1.0",
+  "description": "Albanian law from the official texts: laws and codes with their versions, bylaws, Constitutional Court and High Court decisions, ECHR judgments against Albania, vetting decisions and EU law. Connects to Dedal's Liktor server and adds a skill for researching and citing them.",
+  "author": {
+    "name": "Dedal",
+    "email": "contact@dedal.ai",
+    "url": "https://dedal.ai"
+  },
+  "homepage": "https://dedal.ai/liktor/",
+  "repository": "https://github.com/dedal-hq/liktor-plugin",
+  "license": "PolyForm-Internal-Use-1.0.0",
+  "keywords": ["albania", "law", "legal-research", "case-law", "mcp"],
+  "privacyPolicyUrl": "https://dedal.ai/privacy/",
+  "icon": "./assets/icon.png",
+  "mcpServers": "./mcp.json"
+}
